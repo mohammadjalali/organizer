@@ -20,4 +20,4 @@ for fmt in formats:
     a = unique(a)
     print(a)
     for fi in a:
-        os.system('mv /home/mohammad/Desktop/{} /home/mohammad/Desktop/pic'.format(fi))
+        os.system('mv /home/mohammad/Desktop/{} /home/mohammad/Desktop/{}'.format(fi, _))
